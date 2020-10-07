@@ -27,7 +27,7 @@
 <div id="container">
 
 <header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+<h1 id="logo"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="SAMPLE COMPANY"></a></h1>
 <!--PC用（901px以上端末）メニュー-->
 <nav id="menubar">
 <ul>
